@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gradient.css">
+    <title>label Experiment</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Admission Information Collection</h1>
+        <img src="image/uu.jpg" alt="uttara University" height="90px" align="center"><br>
+    </header><br>
+    <section>
+        <form action="/action_page.php" method="get">
+            <fieldset>
+                <label for="info"><strong>  Student's Information</strong></label><br>
+                <label for="name">Name</label><br>
+                <table>
+                    <thead>
+                        <tr>
+                            <label for="surname">Surname&nbsp;&nbsp;</label>
+                            <input type="text" name="surname" id="surname" required placeholder="Khan"autocomplete="on" autofocus>
+                        </tr>
+                        <tr>
+                            <label for="fname">&nbsp;&nbsp;First Name&nbsp;&nbsp;</label>
+                            <input type="text" name="fname" id="fname" required placeholder="Md hasanur" autocomplete="on" autofocus>
+                        </tr>
+                        <tr>
+                            <label for="lname">&nbsp;&nbsp;Last Name&nbsp;&nbsp;</label>
+                            <input type="text " name="lname" id="lname" placeholder="Roshid " required autocomplete="on" autofocus>
+                        </tr>
+                    </thead>
+                </table><br>
+                <label for="einfo" id="einfo">Education Information</label>
+                <select name="Last Education Qulification" id="einfo">
+                    <option value="HSC">HSC</option>
+                    <option value="Alim">ALIM</option>
+                    <option value="bsc">BSC</option>
+                </select><br>
+                <label for="ssc">Scondery Certificate Examination / Equivalent</label><br>
+                <label for="board">Education Board</label>
+                <select name="Board" id="board">
+                    <option value="dk">Dhaka</option>
+                    <option value="rj">Rajshahi</option>
+                    <option value="ku">Khulna</option>
+                    <option value="ct">chittagong</option>
+                    <option value="cu">Cummilla</option>
+                    <option value="din">Dinajpur</option>
+                    <option value="al">Madrasha</option>
+                    <option value="sh">Shylet</option>
+                    <option value="tec">technical</option>
+                    <option value="op">Open</option>
+                </select>
+                <label for="year">&nbsp;&nbsp;Year Of Passing</label>
+                <select name="Year" id="year">
+                    <option value="dk">2010</option>
+                    <option value="rj">2011</option>
+                    <option value="ku">2012</option>
+                    <option value="ct">2013</option>
+                    <option value="cu">2014</option>
+                    <option value="din">2015</option>
+                    <option value="al">2016</option>
+                    <option value="sh">2017</option>
+                    <option value="tec">2018</option>
+                    <option value="op">2019</option>
+                    <option value="op">2020</option>
+                    <option value="op">2021</option>
+                    <option value="op">2022</option>
+                    <option value="op">2023</option>
+
+                </select>
+                <label for="grade">Grade</label>
+                <input type="text" name="&nbsp;&nbsp;grade" id="grade" required autocomplete="on" autofocus placeholder="out of 5.00">
+                <label for="ins">Institution Name</label>
+                <input type="text" name="ins" id="ins" placeholder="Bogra Cantonment Public School & College"><br>
+                <label for="bsc">Bacholor's Degree Information</label><br>
+                <label for="uni">University</label>
+                <input type="text" name="uni" id="uni" placeholder="KIT" >
+                <label for="cgp">CGPA</label>
+                <input type="text" name="cgp" id="cgp" placeholder="out of 4"><br><br>
+                <label for="gr"><strong> Gardian Information</strong> </label><br>
+                <form action="/action_page.php" method="get">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="ad">Permanent Address</label>
+                    <input type="text" name="ad" id="ad"><br>
+                    <label for="mn">Contract Number</label>
+                    <input type="text" name="mn" id="mn">
+                    <br><br>
+                    <label for="data"><strong> Documents Upload</strong></label><br>
+                    <label for="d">HSC Certificate</label>
+                    <input type="file" name=""d id="d" required autofocus><br>
+                    <label for="mk">HSC Marksheat&nbsp;</label><input type="file" name="mk" id="mk" required><br>
+                    <label for="id">National ID Card</label><input type="file" name="id" id="id" required>
+                    
+                  </form>
+                <br><br><input type="button" value="Above Every Thing is True">
+
+
+
+            </fieldset>
+        </form>
+    </section>
+
+    <div>
+        <h3>Department Information</h3>
+        <main>
+            <p>Your Prefered Department</p>
+            <label for="department" aria-required="true">Depertment</label>
+            <select name="depertment" id="department">
+                <option value="CSE(Regular)">CSE (regular)</option>
+                <option value="eee">EEE</option>
+                <option value="bba">BBA</option>
+                <option value="mba">MBA</option>
+            </select><br><br>
+            <input type="submit" value="Submit Application">
+         </main>
+    </div>
+    <section id="form&input">
+        <h2>Good Luck!</h2>
+        <iframe width="1460" height="715" align="center" src="https://www.youtube.com/embed/frAGrGN00OA?start=706" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autocapitalize="on"></iframe>
+        <br> <br><button>for Skill Development</button>
+    </section>
+
+</body>
+</html>
